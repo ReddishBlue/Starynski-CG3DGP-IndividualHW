@@ -1,6 +1,9 @@
 # Starynski-CG3DGP-IndividualHW
 My individual homework from the Hands on Unity textbook.
 
+## Homework 3:
+
+A note on the rigidbodies: the text of the book said to make enemies have Kinematic rigidbodies, however the provided example image for what the components should look like did not have Is Kinematic selected. I selected Is Kinematic since we will be scripting out how enemies should move, but that may change later
 
 ## Homework 2:
 

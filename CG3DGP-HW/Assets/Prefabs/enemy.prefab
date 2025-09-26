@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8286276333473782529}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: weaponContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 5115565409278779718}
   - component: {fileID: 657822784173804380}
   - component: {fileID: 577125095127404576}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -153,7 +153,7 @@ GameObject:
   - component: {fileID: 6161467869666669686}
   - component: {fileID: 7769057115347984877}
   - component: {fileID: 7191924764087561358}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,8 +261,8 @@ Rigidbody:
   m_GameObject: {fileID: 6720300364844453556}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 2
+  m_AngularDrag: 10
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -275,8 +275,8 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!114 &7191924764087561358
@@ -304,7 +304,7 @@ GameObject:
   - component: {fileID: 3888630423805506680}
   - component: {fileID: 4981303080727661591}
   - component: {fileID: 696295876772913104}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
