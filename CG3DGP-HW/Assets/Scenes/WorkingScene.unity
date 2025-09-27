@@ -945,6 +945,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6190364826619299435, guid: 853fcefb973515b4081b714001eeb657,
         type: 3}
+      propertyPath: fireRate
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6190364826619299435, guid: 853fcefb973515b4081b714001eeb657,
+        type: 3}
       propertyPath: baseTransform
       value: 
       objectReference: {fileID: 1480565774}

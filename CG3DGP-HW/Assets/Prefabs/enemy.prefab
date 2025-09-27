@@ -244,7 +244,7 @@ MonoBehaviour:
   lastShootTime: 0
   bulletPrefab: {fileID: 8773644441324363668, guid: cbdcbb6c82ca6704b9cbe486615fdd8a,
     type: 3}
-  fireRate: 0
+  fireRate: 0.5
   shootPoint: {fileID: 5648754644382609629}
 --- !u!1 &6720300364844453556
 GameObject:

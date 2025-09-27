@@ -117,8 +117,8 @@ public class EnemyFSM : MonoBehaviour
 
     void LookTo(Vector3 targetPosition)
     {
-        Vector3 directionToPosition = Vector3.Normalize(targetPosition - baseTransform.parent.position);
+        Vector3 directionToPosition = Vector3.Normalize(targetPosition - transform.parent.position);
         directionToPosition.y = 0;
-        baseTransform.parent.forward = directionToPosition;
+        transform.parent.forward = directionToPosition;
     }
 }
