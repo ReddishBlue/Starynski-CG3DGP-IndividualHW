@@ -8,6 +8,7 @@ The lose scene has a sphere and the win scene has a box.
 - worked through chapters 7,8, and 9 in the textbook
 - the enemies arent shooting bullets nor are they damaging the player or base but its 10:40 right now!!!
 -       edit i think there is a problem in Sight.cs or something because the enemies will get stuck in "go to base"
+-       edit again, something is up with player and base attack distances i need to fiddle with them more to get it working i think
 -       but if you set the health of enemy or player to 0 to force a win or loss condition, that works properly.
 
 A note on the rigidbodies: the text of the book said to make enemies have Kinematic rigidbodies, however the provided example image for what the components should look like did not have Is Kinematic selected. I selected Is Kinematic since we will be scripting out how enemies should move, but that may change later
