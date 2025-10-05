@@ -163,8 +163,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5648754644382609629}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0.51, y: 0.05, z: 1.54}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.058, y: 0.05, z: 1.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -219,10 +219,10 @@ MonoBehaviour:
   angle: 45
   obstaclesLayers:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 1
   objectsLayers:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 8
   detectedObject: {fileID: 0}
 --- !u!114 &6190364826619299435
 MonoBehaviour:
@@ -240,7 +240,7 @@ MonoBehaviour:
   sightSensor: {fileID: 8988922210316216460}
   baseTransform: {fileID: 0}
   baseAttackDistance: 2
-  playerAttackDistance: 2
+  playerAttackDistance: 5
   lastShootTime: 0
   bulletPrefab: {fileID: 8773644441324363668, guid: cbdcbb6c82ca6704b9cbe486615fdd8a,
     type: 3}
