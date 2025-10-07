@@ -1,6 +1,12 @@
 # Starynski-CG3DGP-IndividualHW
 My individual homework from the Hands on Unity textbook.
 
+## Homework 4:
+Please open and run **TerrainScene**. Thats where my work for this homework is
+- i know the base looks gray but it is NOT greyboxed, I just picked an asset pack that had more gray than i thought. Especially the floor looks like its still a default asset but you can click on them and look, I have a ground asset with its material on there, it just happened to turn out gray-box gray. oops
+- i know thegoblin doesnt have a gun, he shoots bullets from his eyes
+
+
 ## Homework 3:
 
 Please open **WorkingScene** and run that! That includes my work from chapters 5 and 6.
