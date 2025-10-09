@@ -6,6 +6,7 @@ Please open and run **TerrainScene**. Thats where my work for this homework is
 - i know the base looks gray but it is NOT greyboxed, I just picked an asset pack that had more gray than i thought. Especially the floor looks like its still a default asset but you can click on them and look, I have a ground asset with its material on there, it just happened to turn out gray-box gray. oops
 - i know the goblin doesnt have a gun, he shoots bullets from his eyes
 - the goblin enemy seems to cycle through all its animations and then fall over, not really sure why that happens
+-   FIXED: it was because of the animator they had active, which i removed. I kept the animator active on the wizard since it doesnt effect gameplay. Both animators just looped through all the different animations the models had
 - the chapter 10 water is in the hole in my base and in a small pond at the base of one of the hills
 
 
