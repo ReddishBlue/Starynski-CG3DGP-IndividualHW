@@ -19,7 +19,7 @@ public class EnemyFSM : MonoBehaviour
 
     void Awake()
     {
-        baseTransform = GameObject.Find("Base").transform;
+        baseTransform = GameObject.Find("Chair_05").transform;
         agent = GetComponentInParent<NavMeshAgent>();
     }
 
