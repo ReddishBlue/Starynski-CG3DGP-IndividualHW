@@ -1,6 +1,12 @@
 # Starynski-CG3DGP-IndividualHW
 My individual homework from the Hands on Unity textbook.
 
+## Homework 5:
+Please open and run **TerrainScene**.
+- i left in the explosion effect from when i was testing because i like the colors and also cannot figure out why it doesnt show up when pressing the attack button.
+- the waterfall is the thing above the hole in the base
+- i changed the camera to be locked onto the wizard because that felt better to me
+
 ## Homework 4:
 Please open and run **TerrainScene**. Thats where my work for this homework is
 - i know the base looks gray but it is NOT greyboxed, I just picked an asset pack that had more gray than i thought. Especially the floor looks like its still a default asset but you can click on them and look, I have a ground asset with its material on there, it just happened to turn out gray-box gray. oops
