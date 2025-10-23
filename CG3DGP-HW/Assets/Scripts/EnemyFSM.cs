@@ -16,7 +16,7 @@ public class EnemyFSM : MonoBehaviour
     public GameObject bulletPrefab;
     public float fireRate;
     [SerializeField] private GameObject shootPoint;
-    [SerializeField] private ParticleSystem muzzleEffect;
+    [SerializeField] public ParticleSystem muzzleEffect;
 
     void Awake()
     {

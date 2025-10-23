@@ -22,15 +22,4 @@ public class PlayerShooting : MonoBehaviour
             muzzleEffect.Play();
         }
     }
-
-    void Update()
-    {
-        // =========== New Input System ============\\
-
-        // =========== Old Input System ============\\
-        // if (Input.GetKeyDown(KeyCode.Mouse0)) //Mouse0 = left click, Mouse1 = right click, Mouse2 = middle click
-        // {
-        //     Instantiate(bulletPrefab, shootPoint.transform.position, shootPoint.transform.rotation);
-        // }
-    }
 }

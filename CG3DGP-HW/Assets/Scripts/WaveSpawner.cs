@@ -8,6 +8,8 @@ public class WaveSpawner : MonoBehaviour
     [SerializeField] private float startTime;
     [SerializeField] private float endTime;
     [SerializeField] private float spawnRate;
+   
+    [SerializeField] private ParticleSystem muzzleEffect;
 
     void Start()
     {
