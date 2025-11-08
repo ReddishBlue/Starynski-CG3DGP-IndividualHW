@@ -13,7 +13,7 @@ public class WaveSpawner : MonoBehaviour
 
     void Start()
     {
-        WavesManager.instance.waves.Add(this); //call AddWave instead
+        WavesManager.instance.AddWave(this); //call AddWave instead
         InvokeRepeating("Spawn", startTime, spawnRate);
         Invoke("EndSpawner", endTime);
     }

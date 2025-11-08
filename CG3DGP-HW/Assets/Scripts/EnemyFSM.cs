@@ -17,11 +17,13 @@ public class EnemyFSM : MonoBehaviour
     public float fireRate;
     [SerializeField] private GameObject shootPoint;
     [SerializeField] public ParticleSystem muzzleEffect;
+    Animator animator;
 
     void Awake()
     {
         baseTransform = GameObject.Find("Chair_05").transform;
         agent = GetComponentInParent<NavMeshAgent>();
+        animator = GetComponentInParent<Animator>();
     }
 
     void Update()
@@ -34,6 +36,7 @@ public class EnemyFSM : MonoBehaviour
 
     void GoToBase()
     {
+        animator.SetBool("Shooting", false);
         agent.SetDestination(baseTransform.position);
 
         if (sightSensor.detectedObject != null)
@@ -51,6 +54,7 @@ public class EnemyFSM : MonoBehaviour
 
     void AttackBase()
     {
+        animator.SetBool("Shooting", false);
         agent.isStopped = true;
         LookTo(baseTransform.position);
         Shoot();
@@ -58,6 +62,7 @@ public class EnemyFSM : MonoBehaviour
 
     void ChasePlayer()
     {
+        animator.SetBool("Shooting", false);
         agent.isStopped = false;
 
         if (sightSensor.detectedObject == null)
@@ -78,6 +83,7 @@ public class EnemyFSM : MonoBehaviour
 
     void AttackPlayer()
     {
+        animator.SetBool("Shooting", false);
         agent.isStopped = true;
 
         if (sightSensor.detectedObject == null)
@@ -108,9 +114,9 @@ public class EnemyFSM : MonoBehaviour
 
     void Shoot()
     {
-
+        animator.SetBool("Shooting", true);
         var timeSinceLastShoot = Time.time - lastShootTime;
-        if (timeSinceLastShoot > fireRate)
+        if (timeSinceLastShoot > fireRate && Time.timeScale > 0)
         {
             lastShootTime = Time.time;
             Instantiate(bulletPrefab, shootPoint.transform.position, shootPoint.transform.rotation);

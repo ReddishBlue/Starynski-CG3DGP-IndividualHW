@@ -1,6 +1,11 @@
 # Starynski-CG3DGP-IndividualHW
 My individual homework from the Hands on Unity textbook.
 
+## Homework 6:
+Please open and run **TerrainScene**.
+- the enemy movement animation controller is in enemy, not AI, since i need to access the animator which is a child of Goblin, which is a sibling prefab to AI. I put it in enemy and used GetComponentInChildren
+- i know the cutscene is too long and also quite dizzy-ing but i didnt notice that until just now and this is due... soon... 
+
 ## Homework 5:
 Please open and run **TerrainScene**.
 - i left in the explosion effect from when i was testing because i like the colors and also cannot figure out why it doesnt show up when pressing the attack button.
